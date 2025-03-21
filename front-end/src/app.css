@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.connect-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.connect-button:hover {
+  background-color: #0056b3;
+}
+
+.register-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.register-button:hover {
+  background-color: #218838;
+}
+
+.claim-button {
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.claim-button:hover {
+  background-color: #e0a800;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.transaction-section {
+  margin-top: 20px;
+  word-wrap: break-word;
+}
+
+.transaction-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.transaction-section a:hover {
+  text-decoration: underline;
+}
+
+.user-details {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.user-details h3 {
+  margin-bottom: 10px;
+}
+
+.user-details p {
+  margin: 5px 0;
+}
+
+.attendance-history {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.attendance-history h3 {
+  margin-bottom: 10px;
+}
+
+.attendance-history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.attendance-history li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.attendance-history p {
+  margin: 5px 0;
+}
